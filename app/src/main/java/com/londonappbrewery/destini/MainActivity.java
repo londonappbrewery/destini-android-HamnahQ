@@ -15,9 +15,7 @@ public class MainActivity extends AppCompatActivity {
     TextView mStoryTextView;
     int mStoryIndex = 0;
 
-
-    if (mStoryIndex == )
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
