@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     TextView mStoryTextView;
     int mStoryIndex = 0;
 
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,15 +36,14 @@ public class MainActivity extends AppCompatActivity {
         mButtonTop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (mStoryIndex == 1) {
                     mStoryTextView.setText(R.string.T3_Story);
                     mStoryTextView.setText(R.string.T3_Ans1);
                     mStoryTextView.setText(R.string.T3_Ans2);
                     mStoryIndex = 3;
 
-                }
 
-                else if (mStoryIndex == 3) {
+
+                if (mStoryIndex == 3) {
                     mStoryTextView.setText(R.string.T6_End);
                 }
 
@@ -67,14 +66,13 @@ public class MainActivity extends AppCompatActivity {
         mButtonBottom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (mStoryIndex ==1) {
                     mStoryTextView.setText(R.string.T2_Story);
                     mStoryTextView.setText(R.string.T2_Ans1);
                     mStoryTextView.setText(R.string.T2_Ans2);
                     mStoryIndex = 2;
-                }
 
-                else if (mStoryIndex ==2) {
+
+                 if (mStoryIndex ==2) {
                     mStoryTextView.setText(R.string.T4_End);
                 }
 
