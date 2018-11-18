@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                     mStoryTextView.setText(R.string.T3_Story);
-                    mStoryTextView.setText(R.string.T3_Ans1);
-                    mStoryTextView.setText(R.string.T3_Ans2);
+                    mButtonTop.setText(R.string.T3_Ans1);
+                    mButtonBottom.setText(R.string.T3_Ans2);
                     mStoryIndex = 3;
 
 
@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
 
                 else if (mStoryIndex == 2) {
                     mStoryTextView.setText (R.string.T3_Story);
-                    mStoryTextView.setText(R.string.T3_Ans1);
-                    mStoryTextView.setText(R.string.T3_Ans2);
+                    mButtonTop.setText(R.string.T3_Ans1);
+                    mButtonBottom.setText(R.string.T3_Ans2);
                     mStoryIndex =3;
                 }
 
@@ -67,12 +67,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                     mStoryTextView.setText(R.string.T2_Story);
-                    mStoryTextView.setText(R.string.T2_Ans1);
-                    mStoryTextView.setText(R.string.T2_Ans2);
+                    mButtonTop.setText(R.string.T2_Ans1);
+                    mButtonBottom.setText(R.string.T2_Ans2);
                     mStoryIndex = 2;
 
 
-                 if (mStoryIndex ==2) {
+                 if (mStoryIndex == 2) {
                     mStoryTextView.setText(R.string.T4_End);
                 }
 
